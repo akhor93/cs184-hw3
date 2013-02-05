@@ -1,5 +1,5 @@
 // JavaScript Document
 function alertName() {
-	var name = document.getElementById("submit");
-	alert("Hi, " + name.value);
+	var name = document.getElementById("name").value;
+	alert("Hi, " + name);
 }
